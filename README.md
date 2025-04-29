@@ -75,6 +75,11 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 10.  Run GTKterm with 8-N-1/115200 settings as per:
     [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART/](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART/)
 
+11. Success looks like this:
+    
+![image](https://github.com/user-attachments/assets/23662a47-3452-439e-8037-198c779eb2d1)
+
+
 ## Gotchas and Troubleshooting
 
   * **Power Issues:** Ensure a stable 5V power supply.
