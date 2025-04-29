@@ -57,6 +57,7 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 
 7.  Attach USB to Serial:
     Like this:
+    <P></P>
     [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART)
 
 9.  Run `lsusb`.
