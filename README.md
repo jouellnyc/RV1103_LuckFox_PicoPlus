@@ -16,13 +16,17 @@ See https://forums.luckfox.com/viewtopic.php?t=1765
 1.  Download "Ubuntu_Luckfox_Pico_Plus_MicroSD_250313.zip" from [https://drive.google.com/drive/folders/ ... s1y9xcMG0S](https://drive.google.com/drive/folders/14kFWY93MZ4Zga4ke2PVQgUs1y9xcMG0S)
 
 2.  Unzip into  to /tmp/ or some other directory of your choosing.
+    ```
     cd /tmp/
     unzip Ubuntu_Luckfox_Pico_Plus_MicroSD_250313.zip
+    ```
+    
+4. Get an sd card and plug it into your Linux Workstation
+   ```
+   $ ls -l /dev/sd* # see what it mounts as!
+   ```
 
-3. Get an sd card and plug it into your Linux Workstation
-   $ ls -l /dev/sd* # see what it mounts as! 
-
-4. Use blkenvflash to created your SD Card
+6. Use blkenvflash to created your SD Card
    (See https://github.com/LuckfoxTECH/luckfox-pico/issues/129)    
 
 ```
