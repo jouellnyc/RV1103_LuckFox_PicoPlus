@@ -59,8 +59,8 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
     Like this:
     <P>
     [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART)
-
-9.  Run `lsusb`.
+    
+9.  Run `lsusb`
 
     ```
     $ lsusb | grep -i z
