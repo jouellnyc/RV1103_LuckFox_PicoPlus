@@ -18,7 +18,9 @@ See https://forums.luckfox.com/viewtopic.php?t=1765
 2.  Unzip into  to /tmp/ or some other directory of your choosing.
     cd /tmp/
     unzip Ubuntu_Luckfox_Pico_Plus_MicroSD_250313.zip
-3. Get an sd card ....
+
+3. Get an sd card and plug it into your Linux Workstation
+   $ ls -l /dev/sd* # see what it mounts as! 
 
 4. Use blkenvflash to created your SD Card
    (See https://github.com/LuckfoxTECH/luckfox-pico/issues/129)    
@@ -48,7 +50,7 @@ done.
 8. Attach USB to Serial:
    Like this https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART
 
-9. Run lsusfb / ls
+9. Run lsusb 
 $ lsusb | grep -i z
 Bus 001 Device 102: ID 2207:0019 Fuzhou Rockchip Electronics Company rk3xxx
 
