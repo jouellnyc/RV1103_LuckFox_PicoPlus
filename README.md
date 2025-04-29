@@ -8,7 +8,7 @@ https://www.luckfox.com/EN-Luckfox-Pico-Plus
 
 
 
-## TLDR
+## TL;DR
 See https://forums.luckfox.com/viewtopic.php?t=1765
 
 ## Installation Steps
