@@ -41,13 +41,14 @@ done.
 
 5.  Put sd card into Pico Plus
     Like this:
+    ![image](https://github.com/user-attachments/assets/d7c359ed-1a93-435d-a492-0a2fbf83f101)
 
-6. Plug RV1103_LuckFox_PicoPlus into USB-C 
+7. Plug RV1103_LuckFox_PicoPlus into USB-C 
 
-7. Attach USB to Serial:
-   Like this
+8. Attach USB to Serial:
+   Like this https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART
 
-8. Run lsusfb / ls
+9. Run lsusfb / ls
 $ lsusb | grep -i z
 Bus 001 Device 102: ID 2207:0019 Fuzhou Rockchip Electronics Company rk3xxx
 
