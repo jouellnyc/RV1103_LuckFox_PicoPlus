@@ -85,6 +85,9 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
   * **Power Issues:** Ensure a stable 5V power supply.
   * **Make sure the SD card is tight and aligned.**
   * **Make sure the Serial TX/RX pins are set up correctly.**
+  * Random MAC work work well w/DHCP - https://forums.luckfox.com/viewtopic.php?t=1267
+    Instead of https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/computer-to-eth0/
+    I used /etc/rc.local as the S99 script seemed not to work as well...
 
 ## Help Forum and Resources
 
