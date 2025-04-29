@@ -26,7 +26,7 @@ See https://forums.luckfox.com/viewtopic.php?t=1765
    $ ls -l /dev/sd* # see what it mounts as!
    ```
 
-6. Use blkenvflash to created your SD Card
+5. Use blkenvflash to created your SD Card
    (See https://github.com/LuckfoxTECH/luckfox-pico/issues/129)    
 
 ```
@@ -45,8 +45,10 @@ mmcblk1: rootfs.img size:6,442,450,944/6G (offset:0/0B) imgsize:1,136,914,432 (1
 done.
 ```
 
-5.  Put sd card into Pico Plus
+6.  Put sd card into Pico Plus
+
     Like this:
+
     ![image](https://github.com/user-attachments/assets/d7c359ed-1a93-435d-a492-0a2fbf83f101)
 
 7. Plug RV1103_LuckFox_PicoPlus into USB-C 
