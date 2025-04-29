@@ -23,6 +23,7 @@ See https://forums.luckfox.com/viewtopic.php?t=1765
 4. Use blkenvflash to created your SD Card
    (See https://github.com/LuckfoxTECH/luckfox-pico/issues/129)    
 
+```
 $ sudo python3 blkenvflash /dev/sda
 [sudo] password:
 <snip warnings>
@@ -36,6 +37,7 @@ mmcblk1: oem.img size:536,870,912/512M (offset:0/0B) imgsize:113,909,760 (111,24
 mmcblk1: userdata.img size:268,435,456/256M (offset:0/0B) imgsize:9,999,360 (9,765K)
 mmcblk1: rootfs.img size:6,442,450,944/6G (offset:0/0B) imgsize:1,136,914,432 (1,110,268K)
 done.
+```
 
 5.  Put sd card into Pico Plus
     Like this:
