@@ -13,7 +13,7 @@ See https://forums.luckfox.com/viewtopic.php?t=1765
 
 ## Installation Steps
 
-1.  **Download "Ubuntu_Luckfox_Pico_Plus_MicroSD_250313.zip" from https://drive.google.com/drive/folders/ ... s1y9xcMG0S
+1.  Download "Ubuntu_Luckfox_Pico_Plus_MicroSD_250313.zip" from [https://drive.google.com/drive/folders/ ... s1y9xcMG0S](https://drive.google.com/drive/folders/14kFWY93MZ4Zga4ke2PVQgUs1y9xcMG0S)
 
 2.  Unzip into  to /tmp/ or some other directory of your choosing.
     cd /tmp/
