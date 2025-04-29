@@ -14,6 +14,7 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 
 1.  Download "Ubuntu\_Luckfox\_Pico\_Plus\_MicroSD\_250313.zip" from [https://drive.google.com/drive/folders/14kFWY93MZ4Zga4ke2PVQgUs1y9xcMG0S](https://drive.google.com/drive/folders/14kFWY93MZ4Zga4ke2PVQgUs1y9xcMG0S)
 
+
 2.  Unzip into `/tmp/` or another directory of your choosing.
 
     ```
