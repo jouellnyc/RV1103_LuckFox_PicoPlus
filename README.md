@@ -90,4 +90,4 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 
   * **Luckfox Forum:** [forums.luckfox.com](https://forums.luckfox.com/)
 
-This README provides a starting point. Always refer to the official documentation and community forums for the most up-to-date information.
+Always refer to the official documentation and community forums for the most up-to-date information.
