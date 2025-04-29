@@ -1,7 +1,9 @@
 # RV1103 Linux Micro Development Board
 
-This README provides essential NON obvioius steps for getting installing the RV1103 Linux Micro Development Board:
+This README provides essential NON obvious steps for getting installing the RV1103 Linux Micro Development Board:
 https://www.luckfox.com/EN-Luckfox-Pico-Plus
+
+Although there is lots of documentation, there is not specific step by setp to install Ubuntu on the RV1103_LuckFox_PicoPlus from Linux. 
 
 ## TLDR
 See https://forums.luckfox.com/viewtopic.php?t=1765
