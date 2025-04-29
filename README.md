@@ -77,7 +77,7 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 
 11. Success looks like this:
     
-![image](https://github.com/user-attachments/assets/23662a47-3452-439e-8037-198c779eb2d1)
+![image](https://github.com/user-attachments/assets/297a6088-c522-421d-9aa5-b39fba940a41)
 
 
 ## Gotchas and Troubleshooting
