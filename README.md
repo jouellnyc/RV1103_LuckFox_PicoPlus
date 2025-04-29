@@ -55,4 +55,31 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 6.  Plug the RV1103\_LuckFox\_PicoPlus into USB-C.
 
 7.  Attach USB to Serial:
-    Like this:
+    Like this: [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART)
+
+8.  Run `lsusb`.
+
+    ```
+    $ lsusb | grep -i z
+    Bus 001 Device 102: ID 2207:0019 Fuzhou Rockchip Electronics Company rk3xxx
+    ```
+
+    ```
+    $ ls -l /dev/ttyUSB0
+    crw-rw---- 1 root dialout 188, 0 Apr 28 22:39 /dev/ttyUSB0
+    ```
+
+9.  Run GTKterm with 8-N-1/115200 settings as per:
+    [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART/](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART/)
+
+## Gotchas and Troubleshooting
+
+  * **Power Issues:** Ensure a stable 5V power supply.
+  * **Make sure the SD card is tight and aligned.**
+  * **Make sure the Serial TX/RX pins are set up correctly.**
+
+## Help Forum and Resources
+
+  * **Luckfox Forum:** [forums.luckfox.com](https://forums.luckfox.com/)
+
+This README provides a starting point. Always refer to the official documentation and community forums for the most up-to-date information.
