@@ -55,9 +55,10 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 6.  Plug the RV1103\_LuckFox\_PicoPlus into USB-C.
 
 7.  Attach USB to Serial:
-    Like this: [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART)
+    Like this:
+    [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART)
 
-8.  Run `lsusb`.
+9.  Run `lsusb`.
 
     ```
     $ lsusb | grep -i z
@@ -69,7 +70,7 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
     crw-rw---- 1 root dialout 188, 0 Apr 28 22:39 /dev/ttyUSB0
     ```
 
-9.  Run GTKterm with 8-N-1/115200 settings as per:
+10.  Run GTKterm with 8-N-1/115200 settings as per:
     [https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART/](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Plus-Mini/Luckfox-Pico-Login-UART/)
 
 ## Gotchas and Troubleshooting
