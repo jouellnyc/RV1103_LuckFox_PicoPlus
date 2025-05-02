@@ -83,12 +83,14 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
 ## Gotchas and Troubleshooting
 
   * **Power Issues:** Ensure a stable 5V power supply.
-  * **Make sure the SD card is tight and aligned.**
-  * **Make sure the Serial TX/RX pins are set up correctly.**
-  * **If eth0 fails off the network and is a pain due to the MAC randomization on the luckfox image, try:
-      Install/Enable network manager and disable networking
+  * Make sure the **SD card is tight and aligned.**
+  * Make sure the **Serial TX/RX pins** are set up correctly.
+  * If **eth0 fails off the network** and is a pain due to the MAC randomization on the luckfox image, try:
+      Install/Enable network manager and disable networking.
 
 ```
+0. Install 
+   sudo apt update && sudo apt install network-manager
 1. Enabling NetworkManager:
    Start the service: sudo systemctl start NetworkManager
    Enable it to start on boot: sudo systemctl enable NetworkManager 
