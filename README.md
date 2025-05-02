@@ -85,9 +85,46 @@ See [https://forums.luckfox.com/viewtopic.php?t=1765](https://forums.luckfox.com
   * **Power Issues:** Ensure a stable 5V power supply.
   * **Make sure the SD card is tight and aligned.**
   * **Make sure the Serial TX/RX pins are set up correctly.**
+  * **If eth0 fails off the network and is a pain due to the MAC randomization on the luckfox image, try:
+      Install/Enable network manager and disable networking
+
+```
+1. Enabling NetworkManager:
+   Start the service: sudo systemctl start NetworkManager
+   Enable it to start on boot: sudo systemctl enable NetworkManager 
+2. Disabling the default networking service (example using network.service):
+   Stop the service: sudo systemctl stop network.service
+   Disable it from starting on boot: sudo systemctl disable network.service 
+
+root@luckfox:/etc/NetworkManager/system-connections# cat Wired\ connection\ 1.nmconnection 
+[connection]
+id=eth0con
+uuid=9c243339-a258-3aef-9109-f99ffbd47df3
+type=ethernet
+autoconnect-priority=-999
+interface-name=eth0
+
+[ethernet]
+cloned-mac-address=YOUR_MAC
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+
+[proxy]
+root@luckfox:/etc/NetworkManager/system-connections# 
+
+```
+
+
 
 ## Help Forum and Resources
 
   * **Luckfox Forum:** [forums.luckfox.com](https://forums.luckfox.com/)
-
-Always refer to the official documentation and community forums for the most up-to-date information.
+  * https://askubuntu.com/questions/1121523/how-do-i-get-networkmanager-to-assign-a-fixed-mac-address-to-eth0
+  * https://old.uwucocoa.moe/2019/11/solution-for-dpkg-unknown-user-system-group-in-statoverride-file/
+  * https://github.com/LuckfoxTECH/luckfox-pico/issues/185o
+  * https://lowendspirit.com/discussion/670/systemd-failed-to-reload-daemon-refusing-to-reload-not-enough-space-available-on-run-systemd
